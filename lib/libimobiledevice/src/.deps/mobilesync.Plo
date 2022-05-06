@@ -1,0 +1,199 @@
+mobilesync.lo: mobilesync.c ../config.h \
+ C:/msys64/mingw64/include/plist/plist.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
+ C:/msys64/mingw64/include/_mingw_mac.h \
+ C:/msys64/mingw64/include/_mingw_secapi.h \
+ C:/msys64/mingw64/include/vadefs.h \
+ C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/sys/types.h \
+ C:/msys64/mingw64/include/_mingw_off_t.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
+ C:/msys64/mingw64/include/stdarg.h \
+ C:/msys64/mingw64/include/_mingw_stdarg.h \
+ C:/msys64/mingw64/include/string.h \
+ C:/msys64/mingw64/include/sec_api/string_s.h \
+ C:/msys64/mingw64/include/stdlib.h \
+ C:/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/msys64/mingw64/include/limits.h \
+ C:/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw64/include/malloc.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+ C:/msys64/mingw64/include/errno.h C:/msys64/mingw64/include/stdio.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/swprintf.inl \
+ C:/msys64/mingw64/include/sec_api/stdio_s.h mobilesync.h \
+ ../include/libimobiledevice/mobilesync.h \
+ ../include/libimobiledevice/libimobiledevice.h \
+ C:/msys64/mingw64/include/sys/stat.h C:/msys64/mingw64/include/io.h \
+ C:/msys64/mingw64/include/_mingw_stat64.h \
+ ../include/libimobiledevice/lockdown.h device_link_service.h \
+ property_list_service.h \
+ ../include/libimobiledevice/property_list_service.h \
+ ../include/libimobiledevice/service.h service.h idevice.h \
+ C:/msys64/mingw64/include/openssl/ssl.h \
+ C:/msys64/mingw64/include/openssl/e_os2.h \
+ C:/msys64/mingw64/include/openssl/opensslconf.h \
+ C:/msys64/mingw64/include/openssl/opensslv.h \
+ C:/msys64/mingw64/include/inttypes.h \
+ C:/msys64/mingw64/include/openssl/comp.h \
+ C:/msys64/mingw64/include/openssl/crypto.h \
+ C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
+ C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+ C:/msys64/mingw64/include/_timeval.h \
+ C:/msys64/mingw64/include/pthread_time.h \
+ C:/msys64/mingw64/include/openssl/safestack.h \
+ C:/msys64/mingw64/include/openssl/stack.h \
+ C:/msys64/mingw64/include/openssl/ossl_typ.h \
+ C:/msys64/mingw64/include/openssl/cryptoerr.h \
+ C:/msys64/mingw64/include/openssl/symhacks.h \
+ C:/msys64/mingw64/include/openssl/comperr.h \
+ C:/msys64/mingw64/include/openssl/bio.h \
+ C:/msys64/mingw64/include/openssl/bioerr.h \
+ C:/msys64/mingw64/include/openssl/x509.h \
+ C:/msys64/mingw64/include/openssl/buffer.h \
+ C:/msys64/mingw64/include/openssl/buffererr.h \
+ C:/msys64/mingw64/include/openssl/evp.h \
+ C:/msys64/mingw64/include/openssl/evperr.h \
+ C:/msys64/mingw64/include/openssl/objects.h \
+ C:/msys64/mingw64/include/openssl/obj_mac.h \
+ C:/msys64/mingw64/include/openssl/asn1.h \
+ C:/msys64/mingw64/include/openssl/asn1err.h \
+ C:/msys64/mingw64/include/openssl/bn.h \
+ C:/msys64/mingw64/include/openssl/bnerr.h \
+ C:/msys64/mingw64/include/openssl/objectserr.h \
+ C:/msys64/mingw64/include/openssl/ec.h \
+ C:/msys64/mingw64/include/openssl/ecerr.h \
+ C:/msys64/mingw64/include/openssl/rsa.h \
+ C:/msys64/mingw64/include/openssl/rsaerr.h \
+ C:/msys64/mingw64/include/openssl/dsa.h \
+ C:/msys64/mingw64/include/openssl/dh.h \
+ C:/msys64/mingw64/include/openssl/dherr.h \
+ C:/msys64/mingw64/include/openssl/dsaerr.h \
+ C:/msys64/mingw64/include/openssl/sha.h \
+ C:/msys64/mingw64/include/openssl/x509err.h \
+ C:/msys64/mingw64/include/openssl/x509_vfy.h \
+ C:/msys64/mingw64/include/openssl/lhash.h \
+ C:/msys64/mingw64/include/openssl/pkcs7.h \
+ C:/msys64/mingw64/include/openssl/pkcs7err.h \
+ C:/msys64/mingw64/include/openssl/pem.h \
+ C:/msys64/mingw64/include/openssl/pemerr.h \
+ C:/msys64/mingw64/include/openssl/hmac.h \
+ C:/msys64/mingw64/include/openssl/async.h \
+ C:/msys64/mingw64/include/openssl/asyncerr.h \
+ C:/msys64/mingw64/include/openssl/ct.h \
+ C:/msys64/mingw64/include/openssl/cterr.h \
+ C:/msys64/mingw64/include/openssl/sslerr.h \
+ C:/msys64/mingw64/include/openssl/ssl2.h \
+ C:/msys64/mingw64/include/openssl/ssl3.h \
+ C:/msys64/mingw64/include/openssl/tls1.h \
+ C:/msys64/mingw64/include/openssl/dtls1.h \
+ C:/msys64/mingw64/include/openssl/srtp.h ../common/userpref.h \
+ ../common/debug.h
+../config.h:
+C:/msys64/mingw64/include/plist/plist.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
+C:/msys64/mingw64/include/stdint.h:
+C:/msys64/mingw64/include/crtdefs.h:
+C:/msys64/mingw64/include/corecrt.h:
+C:/msys64/mingw64/include/_mingw.h:
+C:/msys64/mingw64/include/_mingw_mac.h:
+C:/msys64/mingw64/include/_mingw_secapi.h:
+C:/msys64/mingw64/include/vadefs.h:
+C:/msys64/mingw64/include/sdks/_mingw_ddk.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
+C:/msys64/mingw64/include/stddef.h:
+C:/msys64/mingw64/include/sys/types.h:
+C:/msys64/mingw64/include/_mingw_off_t.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h:
+C:/msys64/mingw64/include/stdarg.h:
+C:/msys64/mingw64/include/_mingw_stdarg.h:
+C:/msys64/mingw64/include/string.h:
+C:/msys64/mingw64/include/sec_api/string_s.h:
+C:/msys64/mingw64/include/stdlib.h:
+C:/msys64/mingw64/include/corecrt_wstdlib.h:
+C:/msys64/mingw64/include/limits.h:
+C:/msys64/mingw64/include/sec_api/stdlib_s.h:
+C:/msys64/mingw64/include/malloc.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+C:/msys64/mingw64/include/errno.h:
+C:/msys64/mingw64/include/stdio.h:
+C:/msys64/mingw64/include/corecrt_stdio_config.h:
+C:/msys64/mingw64/include/swprintf.inl:
+C:/msys64/mingw64/include/sec_api/stdio_s.h:
+mobilesync.h:
+../include/libimobiledevice/mobilesync.h:
+../include/libimobiledevice/libimobiledevice.h:
+C:/msys64/mingw64/include/sys/stat.h:
+C:/msys64/mingw64/include/io.h:
+C:/msys64/mingw64/include/_mingw_stat64.h:
+../include/libimobiledevice/lockdown.h:
+device_link_service.h:
+property_list_service.h:
+../include/libimobiledevice/property_list_service.h:
+../include/libimobiledevice/service.h:
+service.h:
+idevice.h:
+C:/msys64/mingw64/include/openssl/ssl.h:
+C:/msys64/mingw64/include/openssl/e_os2.h:
+C:/msys64/mingw64/include/openssl/opensslconf.h:
+C:/msys64/mingw64/include/openssl/opensslv.h:
+C:/msys64/mingw64/include/inttypes.h:
+C:/msys64/mingw64/include/openssl/comp.h:
+C:/msys64/mingw64/include/openssl/crypto.h:
+C:/msys64/mingw64/include/time.h:
+C:/msys64/mingw64/include/sys/timeb.h:
+C:/msys64/mingw64/include/sec_api/sys/timeb_s.h:
+C:/msys64/mingw64/include/_timeval.h:
+C:/msys64/mingw64/include/pthread_time.h:
+C:/msys64/mingw64/include/openssl/safestack.h:
+C:/msys64/mingw64/include/openssl/stack.h:
+C:/msys64/mingw64/include/openssl/ossl_typ.h:
+C:/msys64/mingw64/include/openssl/cryptoerr.h:
+C:/msys64/mingw64/include/openssl/symhacks.h:
+C:/msys64/mingw64/include/openssl/comperr.h:
+C:/msys64/mingw64/include/openssl/bio.h:
+C:/msys64/mingw64/include/openssl/bioerr.h:
+C:/msys64/mingw64/include/openssl/x509.h:
+C:/msys64/mingw64/include/openssl/buffer.h:
+C:/msys64/mingw64/include/openssl/buffererr.h:
+C:/msys64/mingw64/include/openssl/evp.h:
+C:/msys64/mingw64/include/openssl/evperr.h:
+C:/msys64/mingw64/include/openssl/objects.h:
+C:/msys64/mingw64/include/openssl/obj_mac.h:
+C:/msys64/mingw64/include/openssl/asn1.h:
+C:/msys64/mingw64/include/openssl/asn1err.h:
+C:/msys64/mingw64/include/openssl/bn.h:
+C:/msys64/mingw64/include/openssl/bnerr.h:
+C:/msys64/mingw64/include/openssl/objectserr.h:
+C:/msys64/mingw64/include/openssl/ec.h:
+C:/msys64/mingw64/include/openssl/ecerr.h:
+C:/msys64/mingw64/include/openssl/rsa.h:
+C:/msys64/mingw64/include/openssl/rsaerr.h:
+C:/msys64/mingw64/include/openssl/dsa.h:
+C:/msys64/mingw64/include/openssl/dh.h:
+C:/msys64/mingw64/include/openssl/dherr.h:
+C:/msys64/mingw64/include/openssl/dsaerr.h:
+C:/msys64/mingw64/include/openssl/sha.h:
+C:/msys64/mingw64/include/openssl/x509err.h:
+C:/msys64/mingw64/include/openssl/x509_vfy.h:
+C:/msys64/mingw64/include/openssl/lhash.h:
+C:/msys64/mingw64/include/openssl/pkcs7.h:
+C:/msys64/mingw64/include/openssl/pkcs7err.h:
+C:/msys64/mingw64/include/openssl/pem.h:
+C:/msys64/mingw64/include/openssl/pemerr.h:
+C:/msys64/mingw64/include/openssl/hmac.h:
+C:/msys64/mingw64/include/openssl/async.h:
+C:/msys64/mingw64/include/openssl/asyncerr.h:
+C:/msys64/mingw64/include/openssl/ct.h:
+C:/msys64/mingw64/include/openssl/cterr.h:
+C:/msys64/mingw64/include/openssl/sslerr.h:
+C:/msys64/mingw64/include/openssl/ssl2.h:
+C:/msys64/mingw64/include/openssl/ssl3.h:
+C:/msys64/mingw64/include/openssl/tls1.h:
+C:/msys64/mingw64/include/openssl/dtls1.h:
+C:/msys64/mingw64/include/openssl/srtp.h:
+../common/userpref.h:
+../common/debug.h:
